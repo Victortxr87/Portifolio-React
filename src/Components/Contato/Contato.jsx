@@ -19,17 +19,7 @@ function Contato(){
 
         event.preventDefault();
 
-        console.log("formulario enviado")
-        let texto = `Olá, meu nome é ${nome}.`;
-  
-    if (tipoContato === "E-mail") {
-      texto += ` Meu e-mail é ${email}.`;
-    } else if (tipoContato === "telefone") ;
-     else {
-      texto += ` Meu número é ${telefone}.`;
-    }
-  
-    texto += ` Minha mensagem é: ${mensagem}`;
+    let texto = `Olá, meu nome é ${nome}. Meu número é ${telefone}. Minha mensagem é: ${mensagem}`;
   
    
     const textoCodificado = encodeURIComponent(texto);
