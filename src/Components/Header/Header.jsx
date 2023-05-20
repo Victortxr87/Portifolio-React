@@ -13,7 +13,7 @@ function Header() {
       <section class="titulo">
 
         <h1>João Victor Teixeira Marinho</h1>
-        <h1>Densenvolvedor de  <br /> software</h1>
+        <h1>Densenvolvedor de  <br />software</h1>
 
 
       </section>
